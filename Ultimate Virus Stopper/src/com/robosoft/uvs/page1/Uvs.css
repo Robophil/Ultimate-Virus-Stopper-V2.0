@@ -1,0 +1,64 @@
+/**for styling the background of the page**/
+.rootPane{
+	-fx-background-color: #444444;
+}
+/**for styling the footer of the page**/
+.footer{
+	-fx-background-color: #333333;
+} 
+/**for styling the scan button**/
+.scanBtn{
+	-fx-background-color: transparent;
+        -fx-text-fill: #999999;
+        -fx-font: 26px 'Tekton Pro';
+        -fx-cursor: hand;
+}
+.scanBtn:hover{
+	-fx-scale-x: 1.2;
+        -fx-scale-y: 1.2;
+}
+/**for styling the icon**/
+.icon{
+	-fx-image: url(../res/logo.png);
+}
+/**for styling the text beside the icon**/
+.iconText{
+	-fx-font: normal bold 22px 'Tekton Pro';
+	-fx-text-fill: white;
+}
+/*set property of the buttons in this class */
+.btnGrp:hover{
+	-fx-scale-x: 1.5;
+        -fx-scale-y: 1.5;
+}
+/*set the help icon properties */
+#help{
+	-fx-image: url(../res/help.png) ;
+}
+/*set the about icon properties */
+#about{
+	-fx-image: url(../res/about.png) ;
+}
+/*set the settings icon properties */
+#settings{
+	-fx-image: url(../res/settings.png) ;
+}
+/*set the minimize icon properties */
+#mini{
+	-fx-image: url(../res/min.png) ;
+}
+/*set the exit icon properties */
+#exit{
+	-fx-image: url(../res/exit.png) ;
+}
+/*set the toggle button group properties */
+.toogleBtn{
+	-fx-font: normal bold 11px 'arial';
+}
+/*set the labels for the toggle buttons properties */
+.txt{
+	-fx-font-size: 15px;
+	-fx-text-fill: black;
+}
+
+

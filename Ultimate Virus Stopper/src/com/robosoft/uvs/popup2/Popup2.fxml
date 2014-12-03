@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="141.0" prefWidth="373.0" styleClass="rootPane" stylesheets="@Popup2.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.robosoft.uvs.popup2.Popup2">
+   <children>
+      <Text fill="WHITE" layoutX="4.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="Task Succesful, hidden and corrupted files recovered" textAlignment="CENTER" wrappingWidth="356.13671875" />
+      <Button fx:id="closeBtn" layoutX="150.0" layoutY="102.0" mnemonicParsing="false" onAction="#clickedBtn" prefHeight="25.0" prefWidth="73.0" text="Close" />
+      <Text fx:id="textInfo" fill="#f80303" layoutX="2.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" textAlignment="CENTER" wrappingWidth="356.13671875" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="background" prefHeight="500.0" prefWidth="347.0" styleClass="rootPane" stylesheets="@Uvs.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.robosoft.uvs.page1.Uvs">
+   <children>
+      <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="23.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" styleClass="icon" />
+      <Text fill="#e4e1e1" layoutX="90.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="iconText" text="Ultimate Virus Stopper" wrappingWidth="237.923828125" />
+      <AnchorPane layoutY="399.0" prefHeight="101.0" prefWidth="352.0" styleClass="footer">
+         <children>
+            <Button fx:id="scanBtn" layoutX="99.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnActionCommand" prefHeight="34.0" prefWidth="154.0" styleClass="scanBtn" text="Scan" />
+            <Text layoutX="7.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Balogun Oghenerobo Philip Production @2014" textAlignment="CENTER" wrappingWidth="337.3984375" />
+         </children></AnchorPane>
+      <ImageView id="help" fx:id="helpIV" fitHeight="19.0" fitWidth="18.0" layoutX="68.0" layoutY="358.0" onMouseClicked="#buttonClicked" pickOnBounds="true" preserveRatio="true" styleClass="btnGrp" />
+      <ImageView id="settings" fx:id="settingsIV" fitHeight="19.0" fitWidth="18.0" layoutX="121.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true" styleClass="btnGrp" />
+      <ImageView id="about" fx:id="aboutIV" fitHeight="25.0" fitWidth="18.0" layoutX="14.0" layoutY="358.0" onMouseClicked="#buttonClicked" pickOnBounds="true" preserveRatio="true" styleClass="btnGrp" />
+      <ImageView id="mini" fx:id="minIV" fitHeight="5.0" fitWidth="18.0" layoutX="282.0" layoutY="21.0" onMouseClicked="#buttonClicked" pickOnBounds="true" preserveRatio="true" styleClass="btnGrp" />
+      <ImageView id="exit" fx:id="exitIV" fitHeight="25.0" fitWidth="18.0" layoutX="319.0" layoutY="14.0" onMouseClicked="#buttonClicked" pickOnBounds="true" preserveRatio="true" styleClass="btnGrp" />
+      <ToggleButton id="protection" fx:id="protectionBtn" layoutX="209.0" layoutY="170.0" mnemonicParsing="false" onAction="#btnActionCommand" prefHeight="18.0" prefWidth="122.0" styleClass="toogleBtn" text="ON" />
+      <ToggleButton id="register" fx:id="registrationBtn" layoutX="209.0" layoutY="243.0" mnemonicParsing="false" onAction="#btnActionCommand" prefHeight="18.0" prefWidth="122.0" styleClass="toogleBtn" text="REGISTERED" />
+      <Text fill="WHITE" layoutX="57.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="Real Time Protection :" wrappingWidth="145.447265625" />
+      <Text fill="WHITE" layoutX="57.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt" text="Registration Status :" wrappingWidth="145.447265625" />
+      <Text layoutX="176.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version 2.0 Full Release" />
+   </children>
+</AnchorPane>

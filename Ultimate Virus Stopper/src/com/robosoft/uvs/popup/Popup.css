@@ -1,0 +1,8 @@
+/**for styling the background of the page**/
+.rootPane{
+	-fx-background-color: #444444;
+}
+
+.txt{
+	-fx-font:  23px 'Tekton Pro';
+}
